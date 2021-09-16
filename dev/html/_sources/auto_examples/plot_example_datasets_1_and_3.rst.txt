@@ -108,7 +108,7 @@ computation on both datasets
 .. code-block:: default
 
     import pandas as pd
-    from toy_pkg.lazy_calculator import lazy_add
+    from toy_pkg.calculus import lazy_add
 
     tot = 0
     df = pd.concat([pd.read_csv(data1.data),
@@ -136,7 +136,7 @@ computation on both datasets
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 3 minutes  51.309 seconds)
+   **Total running time of the script:** ( 3 minutes  51.262 seconds)
 
 
 .. _sphx_glr_download_auto_examples_plot_example_datasets_1_and_3.py:

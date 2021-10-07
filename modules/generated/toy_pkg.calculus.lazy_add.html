@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="toy_pkg.calculus.lazy_add" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://toy-pkg.readthedocs.io/en/latest/modules/generated/toy_pkg.calculus.lazy_add.html" />
+  <meta property="og:site_name" content="Toy Pkg" />
+  <meta property="og:description" content="Examples using toy_pkg.calculus.lazy_add: Slow example Slow example, Example dataset 2 Example dataset 2, Slow example Slow example, Example datasets 1 and 3 Example datasets 1 and 3," />
+  <meta property="og:image" content="../../_images/sphx_glr_plot_example_super_slow_calculator_thumb.png" />
+  <meta property="og:image:alt" content="Slow example" />
+  
+    <title>toy_pkg.calculus.lazy_add &#8212; Useless toy package</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.101715efdecc9b59cb6e1ddfa685c31f.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery-dataframe.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.d8bbf5861d671d414e1a.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+
+    
+    <a class="navbar-brand" href="../../index.html">
+      <p class="title">Toy_pkg</p>
+    </a>
+    
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+    <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
+      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
+        <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../authors.html">
+  Core developers
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../user_guide.html">
+  User guide: table of contents
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../auto_examples/index.html">
+  toy_pkg usage examples
+ </a>
+</li>
+
+        
+      </ul>
+
+      <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+    </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+              
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examples-using-toy-pkg-calculus-lazy-add">
+   Examples using
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     toy_pkg.calculus.lazy_add
+    </span>
+   </code>
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+
+              
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This page is a reference documentation. It only explains the
+function signature, and not how to use it. Please refer to the
+user guide for the big picture.</p>
+</div>
+<div class="section" id="toy-pkg-calculus-lazy-add">
+<h1>toy_pkg.calculus.lazy_add<a class="headerlink" href="#toy-pkg-calculus-lazy-add" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="toy_pkg.calculus.lazy_add">
+<span class="sig-prename descclassname"><span class="pre">toy_pkg.calculus.</span></span><span class="sig-name descname"><span class="pre">lazy_add</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">first_term</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">second_term</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">secs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#toy_pkg.calculus.lazy_add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lazy add first and second term.</p>
+<p>Add the terms using <code class="xref py py-func docutils literal notranslate"><span class="pre">toy_pkg.calculator.add</span></code>
+and sleep for the provided number of seconds.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>first_term</strong> (<em>Number</em>) – First term for the addition.</p></li>
+<li><p><strong>second_term</strong> (<em>Number</em>) – Second term for the addition.</p></li>
+<li><p><strong>secs</strong> (<a class="reference external" href="https://docs.python.org/3.6/library/functions.html#int" title="(in Python v3.6)"><em>int</em></a><em>, </em><em>optional</em>) – Number of seconds to sleep.
+Default=0.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>result</strong> – Result of the addition.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Number</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">lazy_add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lazy_add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lazy_add</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="go">0</span>
+</pre></div>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">layz_subtract</span></code></dt><dd><p>Subtraction</p>
+</dd>
+<dt><a class="reference internal" href="toy_pkg.calculus.lazy_multiply.html#toy_pkg.calculus.lazy_multiply" title="toy_pkg.calculus.lazy_multiply"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lazy_multiply</span></code></a></dt><dd><p>Multiplication</p>
+</dd>
+<dt><a class="reference internal" href="toy_pkg.calculus.lazy_divide.html#toy_pkg.calculus.lazy_divide" title="toy_pkg.calculus.lazy_divide"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lazy_divide</span></code></a></dt><dd><p>Division</p>
+</dd>
+</dl>
+</div>
+</dd></dl>
+
+<div class="section" id="examples-using-toy-pkg-calculus-lazy-add">
+<h2>Examples using <code class="docutils literal notranslate"><span class="pre">toy_pkg.calculus.lazy_add</span></code><a class="headerlink" href="#examples-using-toy-pkg-calculus-lazy-add" title="Permalink to this headline">¶</a></h2>
+<div class="sphx-glr-thumbcontainer" tooltip="This example also runs useless computations but mimics a very slow example by using the lazy ve..."><div class="figure align-default" id="id1">
+<img alt="Slow example" src="../../_images/sphx_glr_plot_example_super_slow_calculator_thumb.png" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="../../auto_examples/plot_example_super_slow_calculator.html#sphx-glr-auto-examples-plot-example-super-slow-calculator-py"><span class="std std-ref">Slow example</span></a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+</div><div class="sphx-glr-thumbcontainer" tooltip="This example rely on fake dataset 2 only."><div class="figure align-default" id="id2">
+<img alt="Example dataset 2" src="../../_images/sphx_glr_plot_example_dataset_2_thumb.png" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="../../auto_examples/plot_example_dataset_2.html#sphx-glr-auto-examples-plot-example-dataset-2-py"><span class="std std-ref">Example dataset 2</span></a></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+</div><div class="sphx-glr-thumbcontainer" tooltip="This example also runs useless computations but mimics a slow example by using the lazy version..."><div class="figure align-default" id="id3">
+<img alt="Slow example" src="../../_images/sphx_glr_plot_example_slow_calculator_thumb.png" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="../../auto_examples/plot_example_slow_calculator.html#sphx-glr-auto-examples-plot-example-slow-calculator-py"><span class="std std-ref">Slow example</span></a></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</div><div class="sphx-glr-thumbcontainer" tooltip="This example rely on fake datasets 1 and 3."><div class="figure align-default" id="id4">
+<img alt="Example datasets 1 and 3" src="../../_images/sphx_glr_plot_example_datasets_1_and_3_thumb.png" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="../../auto_examples/plot_example_datasets_1_and_3.html#sphx-glr-auto-examples-plot-example-datasets-1-and-3-py"><span class="std std-ref">Example datasets 1 and 3</span></a></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+</div></div>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+
+    
+  <script src="../../_static/js/index.d8bbf5861d671d414e1a.js"></script>
+
+
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2021, Nicolas Gensollen.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.0.2.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

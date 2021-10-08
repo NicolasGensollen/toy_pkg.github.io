@@ -26,15 +26,6 @@ Load the package
 
 
 
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /home/nicolas/GitRepos/nilearn-fork/nilearn/datasets/__init__.py:93: FutureWarning: Fetchers from the nilearn.datasets module will be updated in version 0.9 to return python strings instead of bytes and Pandas dataframes instead of Numpy arrays.
-      warn("Fetchers from the nilearn.datasets module will be "
-
 
 
 
@@ -142,7 +133,7 @@ Still more and more
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.475 seconds)
+   **Total running time of the script:** ( 0 minutes  0.403 seconds)
 
 
 .. _sphx_glr_download_auto_examples_plot_example_calculator.py:

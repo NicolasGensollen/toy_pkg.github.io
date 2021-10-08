@@ -5,15 +5,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta property="og:title" content="Example datasets 1 and 3" />
+  <meta property="og:title" content="Example dataset 2" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://toy-pkg.readthedocs.io/en/latest/auto_examples/plot_example_datasets_1_and_3.html" />
+  <meta property="og:url" content="https://toy-pkg.readthedocs.io/en/latest/auto_examples/plot_example_dataset_2.html" />
   <meta property="og:site_name" content="Toy Pkg" />
-  <meta property="og:description" content="This example rely on fake datasets 1 and 3. Load dataset 1 Load fake dataset 1 from toy_pkg.datasets import fetch_fake_dataset_1 data1 = fetch_fake_dataset_1() print(data1.description) Out: dataset..." />
+  <meta property="og:description" content="This example rely on fake dataset 2 only. Load dataset Load fake dataset 2 from toy_pkg.datasets import fetch_fake_dataset_2 data = fetch_fake_dataset_2() print(data.description) Out: dataset name ..." />
   <meta property="og:image" content="https://dirty-cat.github.io/stable/_static/dirty_cat.svg" />
   <meta property="og:image:alt" content="Toy Pkg" />
   
-    <title>Example datasets 1 and 3 &#8212; Useless toy package</title>
+    <title>Example dataset 2 &#8212; Useless toy package</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -45,7 +45,8 @@
     <script src="../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Slow example" href="plot_example_slow_calculator.html" />
+    <link rel="next" title="Slow example" href="plot_example_slow_calculator.html" />
+    <link rel="prev" title="Slow example" href="plot_example_super_slow_calculator.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -138,9 +139,9 @@
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="plot_example_dataset_2.html">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Example dataset 2
   </a>
  </li>
@@ -152,9 +153,9 @@
   </a>
  </li>
 </ul>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="plot_example_datasets_1_and_3.html">
    Example datasets 1 and 3
   </a>
  </li>
@@ -196,58 +197,38 @@
                 
   <div class="sphx-glr-download-link-note admonition note">
 <p class="admonition-title">Note</p>
-<p>Click <a class="reference internal" href="#sphx-glr-download-auto-examples-plot-example-datasets-1-and-3-py"><span class="std std-ref">here</span></a>
+<p>Click <a class="reference internal" href="#sphx-glr-download-auto-examples-plot-example-dataset-2-py"><span class="std std-ref">here</span></a>
 to download the full example code or to run this example in your browser via Binder</p>
 </div>
-<div class="sphx-glr-example-title section" id="example-datasets-1-and-3">
-<span id="sphx-glr-auto-examples-plot-example-datasets-1-and-3-py"></span><h1>Example datasets 1 and 3<a class="headerlink" href="#example-datasets-1-and-3" title="Permalink to this headline">¶</a></h1>
-<p>This example rely on fake datasets 1 and 3.</p>
-<p>Load dataset 1</p>
-<p>Load fake dataset 1</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">toy_pkg.datasets</span> <span class="kn">import</span> <span class="n">fetch_fake_dataset_1</span>
-<span class="n">data1</span> <span class="o">=</span> <span class="n">fetch_fake_dataset_1</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><a href="https://docs.python.org/3.6/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data1</span><span class="o">.</span><span class="n">description</span></a><span class="p">)</span>
+<div class="sphx-glr-example-title section" id="example-dataset-2">
+<span id="sphx-glr-auto-examples-plot-example-dataset-2-py"></span><h1>Example dataset 2<a class="headerlink" href="#example-dataset-2" title="Permalink to this headline">¶</a></h1>
+<p>This example rely on fake dataset 2 only.</p>
+<p>Load dataset</p>
+<p>Load fake dataset 2</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">toy_pkg.datasets</span> <span class="kn">import</span> <span class="n">fetch_fake_dataset_2</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">fetch_fake_dataset_2</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><a href="https://docs.python.org/3.6/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span><span class="o">.</span><span class="n">description</span></a><span class="p">)</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>dataset name = fake_dataset_1
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>dataset name = fake_dataset_2
 
-Dataset created in /home/circleci/toy_pkg_data/fake_dataset_1
+Dataset created in /home/circleci/toy_pkg_data/fake_dataset_2
 
-dataset dir = /home/circleci/toy_pkg_data/fake_dataset_1
-Downloading dataset 1...
-dataset file = /home/circleci/toy_pkg_data/fake_dataset_1/fake_dataset_1.csv
-Fake dataset 1.
-Garbage data with two terms.
-</pre></div>
-</div>
-<p>Load dataset 3</p>
-<p>Load fake dataset 3</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">toy_pkg.datasets</span> <span class="kn">import</span> <span class="n">fetch_fake_dataset_3</span>
-<span class="n">data3</span> <span class="o">=</span> <span class="n">fetch_fake_dataset_3</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><a href="https://docs.python.org/3.6/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data3</span><span class="o">.</span><span class="n">description</span></a><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>dataset name = fake_dataset_3
-
-Dataset created in /home/circleci/toy_pkg_data/fake_dataset_3
-
-dataset dir = /home/circleci/toy_pkg_data/fake_dataset_3
-Downloading dataset 3...
-dataset file = /home/circleci/toy_pkg_data/fake_dataset_3/fake_dataset_3.csv
-Fake dataset 3.
-Garbage data with two terms.
+dataset dir = /home/circleci/toy_pkg_data/fake_dataset_2
+Downloading dataset 2...
+Downloading dataset 2...
+dataset files = [&#39;/home/circleci/toy_pkg_data/fake_dataset_2/fake_dataset_2_part1.csv&#39;, &#39;/home/circleci/toy_pkg_data/fake_dataset_2/fake_dataset_2_part2.csv&#39;]
+Fake dataset 2.
+Garbage data with two files.
 </pre></div>
 </div>
 <p>Perform some computation</p>
-<p>computation on both datasets</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">from</span> <span class="nn">toy_pkg.calculus</span> <span class="kn">import</span> <span class="n">lazy_add</span>
 
 <a href="https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.int64" title="numpy.int64" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-attribute"><span class="n">tot</span></a> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><a href="https://docs.python.org/3.6/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data1</span><span class="o">.</span><span class="n">data</span></a><span class="p">),</span>
-                <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><a href="https://docs.python.org/3.6/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data3</span><span class="o">.</span><span class="n">data</span></a><span class="p">)])</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">,</span> <a href="https://docs.python.org/3.6/library/stdtypes.html#list" title="builtins.list" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data</span><span class="o">.</span><span class="n">data</span></a><span class="p">))</span>
 <span class="k">for</span> <a href="https://docs.python.org/3.6/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">i</span></a><span class="p">,</span><span class="n">row</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
     <a href="https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.int64" title="numpy.int64" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-attribute"><span class="n">tot</span></a> <span class="o">+=</span> <span class="n">lazy_add</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;first term&#39;</span><span class="p">],</span>
                     <span class="n">row</span><span class="p">[</span><span class="s1">&#39;second term&#39;</span><span class="p">],</span>
@@ -256,19 +237,19 @@ Garbage data with two terms.
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>1021609
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>1099370
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 3 minutes  51.001 seconds)</p>
-<div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-examples-plot-example-datasets-1-and-3-py">
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 3 minutes  0.541 seconds)</p>
+<div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-examples-plot-example-dataset-2-py">
 <div class="binder-badge docutils container">
-<a class="reference external image-reference" href="https://mybinder.org/v2/gh/toy_pkg/toy_pkg.github.io/master?filepath=examples/auto_examples/plot_example_datasets_1_and_3.ipynb"><img alt="Launch binder" src="../_images/binder_badge_logo.svg" width="150px" /></a>
+<a class="reference external image-reference" href="https://mybinder.org/v2/gh/toy_pkg/toy_pkg.github.io/master?filepath=examples/auto_examples/plot_example_dataset_2.ipynb"><img alt="Launch binder" src="../_images/binder_badge_logo.svg" width="150px" /></a>
 </div>
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
-<p><a class="reference download internal" download="" href="../_downloads/77e26e42c7ac926125d533fe815db146/plot_example_datasets_1_and_3.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_example_datasets_1_and_3.py</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/1cf1de4f09323a878100308fed725d23/plot_example_dataset_2.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_example_dataset_2.py</span></code></a></p>
 </div>
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
-<p><a class="reference download internal" download="" href="../_downloads/cc21e9f39e35f0118116b48739281bcb/plot_example_datasets_1_and_3.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_example_datasets_1_and_3.ipynb</span></code></a></p>
+<p><a class="reference download internal" download="" href="../_downloads/cce75178db8537ab0750dfcd4a159c88/plot_example_dataset_2.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_example_dataset_2.ipynb</span></code></a></p>
 </div>
 </div>
 <p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
@@ -280,7 +261,8 @@ Garbage data with two terms.
               
               <div class='prev-next-bottom'>
                 
-    <a class='left-prev' id="prev-link" href="plot_example_slow_calculator.html" title="previous page">Slow example</a>
+    <a class='left-prev' id="prev-link" href="plot_example_super_slow_calculator.html" title="previous page">Slow example</a>
+    <a class='right-next' id="next-link" href="plot_example_slow_calculator.html" title="next page">Slow example</a>
 
               </div>
               

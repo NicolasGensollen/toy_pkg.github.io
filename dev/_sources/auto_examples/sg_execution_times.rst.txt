@@ -5,16 +5,16 @@
 
 Computation times
 =================
-**13:48.705** total execution time for **auto_examples** files:
+**13:48.708** total execution time for **auto_examples** files:
 
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
 | :ref:`sphx_glr_auto_examples_plot_example_super_slow_calculator.py` (``plot_example_super_slow_calculator.py``) | 06:00.259 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_example_datasets_1_and_3.py` (``plot_example_datasets_1_and_3.py``)           | 03:51.123 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_example_datasets_1_and_3.py` (``plot_example_datasets_1_and_3.py``)           | 03:51.228 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_example_dataset_2.py` (``plot_example_dataset_2.py``)                         | 03:00.541 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_example_dataset_2.py` (``plot_example_dataset_2.py``)                         | 03:00.742 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_example_slow_calculator.py` (``plot_example_slow_calculator.py``)             | 00:56.049 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_example_slow_calculator.py` (``plot_example_slow_calculator.py``)             | 00:56.048 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_example_calculator.py` (``plot_example_calculator.py``)                       | 00:00.733 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_example_calculator.py` (``plot_example_calculator.py``)                       | 00:00.431 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+

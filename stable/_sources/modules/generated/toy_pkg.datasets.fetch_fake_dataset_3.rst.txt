@@ -1,0 +1,14 @@
+﻿.. note::
+
+    This page is a reference documentation. It only explains the
+    function signature, and not how to use it. Please refer to the
+    user guide for the big picture.
+
+toy_pkg.datasets.fetch_fake_dataset_3
+=====================================
+
+.. currentmodule:: toy_pkg.datasets
+
+.. autofunction:: fetch_fake_dataset_3
+
+.. include:: toy_pkg.datasets.fetch_fake_dataset_3.examples

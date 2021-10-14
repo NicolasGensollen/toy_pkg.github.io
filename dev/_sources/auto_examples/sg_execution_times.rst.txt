@@ -5,16 +5,16 @@
 
 Computation times
 =================
-**13:49.269** total execution time for **auto_examples** files:
+**13:49.599** total execution time for **auto_examples** files:
 
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_example_super_slow_calculator.py` (``plot_example_super_slow_calculator.py``) | 06:00.260 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_example_super_slow_calculator.py` (``plot_example_super_slow_calculator.py``) | 06:00.258 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_example_datasets_1_and_3.py` (``plot_example_datasets_1_and_3.py``)           | 03:51.169 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_example_datasets_1_and_3.py` (``plot_example_datasets_1_and_3.py``)           | 03:51.305 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_example_dataset_2.py` (``plot_example_dataset_2.py``)                         | 03:00.595 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_example_dataset_2.py` (``plot_example_dataset_2.py``)                         | 03:00.672 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_example_slow_calculator.py` (``plot_example_slow_calculator.py``)             | 00:56.053 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_example_slow_calculator.py` (``plot_example_slow_calculator.py``)             | 00:56.052 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_auto_examples_plot_example_calculator.py` (``plot_example_calculator.py``)                       | 00:01.193 | 0.0 MB |
+| :ref:`sphx_glr_auto_examples_plot_example_calculator.py` (``plot_example_calculator.py``)                       | 00:01.312 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+

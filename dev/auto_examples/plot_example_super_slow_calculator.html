@@ -10,7 +10,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://toy-pkg.readthedocs.io/en/latest/auto_examples/plot_example_super_slow_calculator.html" />
   <meta property="og:site_name" content="Toy Pkg" />
-  <meta property="og:description" content="This example also runs useless computations but mimics a very slow example by using the lazy versions of the calculator module. Load functions from toy_pkg.calculus import lazy_add, lazy_subtract P..." />
+  <meta property="og:description" content="This example also runs useless computations but mimics a very slow example by using the lazy versions of the calculator module. Load functions from toy_pkg.calculus import lazy_multiply, lazy_divid..." />
   <meta property="og:image" content="https://dirty-cat.github.io/stable/_static/dirty_cat.svg" />
   <meta property="og:image:alt" content="Toy Pkg" />
   
@@ -210,29 +210,29 @@ to download the full example code or to run this example in your browser via Bin
 a very slow example by using the lazy versions of the
 calculator module.</p>
 <p>Load functions</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">toy_pkg.calculus</span> <span class="kn">import</span> <span class="n">lazy_add</span><span class="p">,</span> <span class="n">lazy_subtract</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">toy_pkg.calculus</span> <span class="kn">import</span> <span class="n">lazy_multiply</span><span class="p">,</span> <span class="n">lazy_divide</span>
 </pre></div>
 </div>
 <p>Perform long computations</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Perform 1 + 1 and sleep for 2 minutes...</span>
-<a href="https://docs.python.org/3.6/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">result</span></a> <span class="o">=</span> <span class="n">lazy_add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span> <span class="o">*</span> <span class="mi">60</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><a href="https://docs.python.org/3.6/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">result</span></a><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Perform 1 * 1 and sleep for 1 minute...</span>
+<a href="https://docs.python.org/3.6/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">result</span></a> <span class="o">=</span> <span class="n">lazy_multiply</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><a href="https://docs.python.org/3.6/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">result</span></a><span class="p">)</span>
 
-<span class="c1"># Perform 10 - 7 and sleep for 1 minute...</span>
-<a href="https://docs.python.org/3.6/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">result</span></a> <span class="o">=</span> <span class="n">lazy_subtract</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><a href="https://docs.python.org/3.6/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">result</span></a><span class="p">)</span>
+<span class="c1"># Perform 10 / 5 and sleep for 1 minute...</span>
+<a href="https://docs.python.org/3.6/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">result</span></a> <span class="o">=</span> <span class="n">lazy_divide</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><a href="https://docs.python.org/3.6/library/functions.html#float" title="builtins.float" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">result</span></a><span class="p">)</span>
 
-<span class="c1"># Perform 20 + 42 and sleeps for 3 minutes...</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">lazy_add</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">60</span><span class="p">))</span>
+<span class="c1"># Perform 10 * 42 and sleeps for 1 minutes...</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">lazy_multiply</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">60</span><span class="p">))</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>2
-3
-62
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>1
+2.0
+420
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 6 minutes  0.258 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 3 minutes  0.186 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-examples-plot-example-super-slow-calculator-py">
 <div class="binder-badge docutils container">
 <a class="reference external image-reference" href="https://mybinder.org/v2/gh/toy_pkg/toy_pkg.github.io/master?filepath=examples/auto_examples/plot_example_super_slow_calculator.ipynb"><img alt="Launch binder" src="../_images/binder_badge_logo.svg" width="150px" /></a>

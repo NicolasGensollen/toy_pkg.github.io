@@ -28,7 +28,7 @@ Introductory examples that teach how to use toy_pkg.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="A simple example.">
+    <div class="sphx-glr-thumbcontainer" tooltip="A simple example of the calculus module of toy_pkg.">
 
 .. only:: html
 

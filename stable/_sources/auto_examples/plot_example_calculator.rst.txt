@@ -21,7 +21,7 @@
 Basic example
 =============
 
-A simple example.
+A simple example of the calculus module of `toy_pkg`.
 
 .. GENERATED FROM PYTHON SOURCE LINES 9-10
 
@@ -157,7 +157,7 @@ Still more and more
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.363 seconds)
+   **Total running time of the script:** ( 0 minutes  0.348 seconds)
 
 
 .. _sphx_glr_download_auto_examples_plot_example_calculator.py:

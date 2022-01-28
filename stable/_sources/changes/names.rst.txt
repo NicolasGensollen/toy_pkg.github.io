@@ -1,0 +1,2 @@
+.. _Nicolas Gensollen: https://nicolasgensollen.github.io/
+

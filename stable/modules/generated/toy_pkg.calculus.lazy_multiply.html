@@ -9,8 +9,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://toy-pkg.readthedocs.io/en/latest/modules/generated/toy_pkg.calculus.lazy_multiply.html" />
   <meta property="og:site_name" content="Toy Pkg" />
-  <meta property="og:image" content="https://dirty-cat.github.io/stable/_static/dirty_cat.svg" />
-  <meta property="og:image:alt" content="Toy Pkg" />
+  <meta property="og:description" content="Examples using toy_pkg.calculus.lazy_multiply: Slow example Slow example," />
+  <meta property="og:image" content="../../_images/sphx_glr_plot_example_super_slow_calculator_thumb.png" />
+  <meta property="og:image:alt" content="Slow example" />
   
     <title>toy_pkg.calculus.lazy_multiply &#8212; Useless toy package</title>
     
@@ -43,6 +44,8 @@
     <script src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="toy_pkg.calculus.lazy_divide" href="toy_pkg.calculus.lazy_divide.html" />
+    <link rel="prev" title="toy_pkg.calculus.lazy_subtract" href="toy_pkg.calculus.lazy_subtract.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
   </head>
@@ -72,13 +75,25 @@
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../user_guide.html">
-  User guide: table of contents
+  User Guide
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../auto_examples/index.html">
-  toy_pkg usage examples
+  Examples
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../reference.html">
+  API
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../whats_new.html">
+  What’s new
  </a>
 </li>
 
@@ -103,7 +118,63 @@
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   <div class="bd-toc-item active">
-    
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.add.html">
+   toy_pkg.calculus.add
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.subtract.html">
+   toy_pkg.calculus.subtract
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.multiply.html">
+   toy_pkg.calculus.multiply
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.divide.html">
+   toy_pkg.calculus.divide
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_add.html">
+   toy_pkg.calculus.lazy_add
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_subtract.html">
+   toy_pkg.calculus.lazy_subtract
+  </a>
+ </li>
+ <li class="toctree-l2 current active">
+  <a class="current reference internal" href="#">
+   toy_pkg.calculus.lazy_multiply
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_divide.html">
+   toy_pkg.calculus.lazy_divide
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.datasets.fetch_fake_dataset_1.html">
+   toy_pkg.datasets.fetch_fake_dataset_1
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.datasets.fetch_fake_dataset_2.html">
+   toy_pkg.datasets.fetch_fake_dataset_2
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.datasets.fetch_fake_dataset_3.html">
+   toy_pkg.datasets.fetch_fake_dataset_3
+  </a>
+ </li>
+</ul>
   </div>
 </nav>
             </div>
@@ -113,9 +184,24 @@
           
           <div class="d-none d-xl-block col-xl-2 bd-toc">
               
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examples-using-toy-pkg-calculus-lazy-multiply">
+   Examples using
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     toy_pkg.calculus.lazy_multiply
+    </span>
+   </code>
+  </a>
+ </li>
+</ul>
+
 </nav>
 
 
@@ -143,22 +229,25 @@ user guide for the big picture.</p>
 <dt class="sig sig-object py" id="toy_pkg.calculus.lazy_multiply">
 <span class="sig-prename descclassname"><span class="pre">toy_pkg.calculus.</span></span><span class="sig-name descname"><span class="pre">lazy_multiply</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">first_term</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">second_term</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">secs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#toy_pkg.calculus.lazy_multiply" title="Permalink to this definition">¶</a></dt>
 <dd><p>Multiply first term by second term.</p>
-<p>Multiply the terms using <code class="xref py py-func docutils literal notranslate"><span class="pre">toy_pkg.calculator.multiply</span></code>
+<p>Multiply the terms using <a class="reference internal" href="toy_pkg.calculus.multiply.html#toy_pkg.calculus.multiply" title="toy_pkg.calculus.multiply"><code class="xref py py-func docutils literal notranslate"><span class="pre">toy_pkg.calculus.multiply</span></code></a>
 and sleep for the provided number of seconds.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>first_term</strong> (<em>Number</em>) – First term for the multiplication.</p></li>
-<li><p><strong>second_term</strong> (<em>Number</em>) – Second term for the multiplication.</p></li>
-<li><p><strong>secs</strong> (<a class="reference external" href="https://docs.python.org/3.6/library/functions.html#int" title="(in Python v3.6)"><em>int</em></a><em>, </em><em>optional</em>) – Number of seconds to sleep.
-Default=0.</p></li>
-</ul>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>first_term</strong><span class="classifier">Number</span></dt><dd><p>First term for the multiplication.</p>
+</dd>
+<dt><strong>second_term</strong><span class="classifier">Number</span></dt><dd><p>Second term for the multiplication.</p>
+</dd>
+<dt><strong>secs</strong><span class="classifier">int, optional</span></dt><dd><p>Number of seconds to sleep.
+Default=0.</p>
+</dd>
+</dl>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>result</strong> – Result of the multiplication.</p>
+<dd class="field-even"><dl class="simple">
+<dt><strong>result</strong><span class="classifier">Number</span></dt><dd><p>Result of the multiplication.</p>
 </dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>Number</p>
+</dl>
 </dd>
 </dl>
 <div class="admonition seealso">
@@ -183,6 +272,13 @@ Default=0.</p></li>
 </div>
 </dd></dl>
 
+<div class="section" id="examples-using-toy-pkg-calculus-lazy-multiply">
+<h2>Examples using <code class="docutils literal notranslate"><span class="pre">toy_pkg.calculus.lazy_multiply</span></code><a class="headerlink" href="#examples-using-toy-pkg-calculus-lazy-multiply" title="Permalink to this headline">¶</a></h2>
+<div class="sphx-glr-thumbcontainer" tooltip="This example also runs useless computations but mimics a very slow example by using the lazy ve..."><div class="figure align-default" id="id1">
+<img alt="Slow example" src="../../_images/sphx_glr_plot_example_super_slow_calculator_thumb.png" />
+<p class="caption"><span class="caption-text"><a class="reference internal" href="../../auto_examples/plot_example_super_slow_calculator.html#sphx-glr-auto-examples-plot-example-super-slow-calculator-py"><span class="std std-ref">Slow example</span></a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+</div></div>
 </div>
 
 
@@ -191,6 +287,8 @@ Default=0.</p></li>
               
               <div class='prev-next-bottom'>
                 
+    <a class='left-prev' id="prev-link" href="toy_pkg.calculus.lazy_subtract.html" title="previous page">toy_pkg.calculus.lazy_subtract</a>
+    <a class='right-next' id="next-link" href="toy_pkg.calculus.lazy_divide.html" title="next page">toy_pkg.calculus.lazy_divide</a>
 
               </div>
               

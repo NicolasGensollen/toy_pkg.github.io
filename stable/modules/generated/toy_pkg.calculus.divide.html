@@ -44,6 +44,8 @@
     <script src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="toy_pkg.calculus.lazy_add" href="toy_pkg.calculus.lazy_add.html" />
+    <link rel="prev" title="toy_pkg.calculus.multiply" href="toy_pkg.calculus.multiply.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
   </head>
@@ -73,13 +75,25 @@
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../user_guide.html">
-  User guide: table of contents
+  User Guide
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../auto_examples/index.html">
-  toy_pkg usage examples
+  Examples
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../reference.html">
+  API
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../whats_new.html">
+  What’s new
  </a>
 </li>
 
@@ -104,7 +118,63 @@
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   <div class="bd-toc-item active">
-    
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.add.html">
+   toy_pkg.calculus.add
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.subtract.html">
+   toy_pkg.calculus.subtract
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.multiply.html">
+   toy_pkg.calculus.multiply
+  </a>
+ </li>
+ <li class="toctree-l2 current active">
+  <a class="current reference internal" href="#">
+   toy_pkg.calculus.divide
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_add.html">
+   toy_pkg.calculus.lazy_add
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_subtract.html">
+   toy_pkg.calculus.lazy_subtract
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_multiply.html">
+   toy_pkg.calculus.lazy_multiply
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_divide.html">
+   toy_pkg.calculus.lazy_divide
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.datasets.fetch_fake_dataset_1.html">
+   toy_pkg.datasets.fetch_fake_dataset_1
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.datasets.fetch_fake_dataset_2.html">
+   toy_pkg.datasets.fetch_fake_dataset_2
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.datasets.fetch_fake_dataset_3.html">
+   toy_pkg.datasets.fetch_fake_dataset_3
+  </a>
+ </li>
+</ul>
   </div>
 </nav>
             </div>
@@ -159,27 +229,31 @@ user guide for the big picture.</p>
 <dt class="sig sig-object py" id="toy_pkg.calculus.divide">
 <span class="sig-prename descclassname"><span class="pre">toy_pkg.calculus.</span></span><span class="sig-name descname"><span class="pre">divide</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">first_term</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">second_term</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#toy_pkg.calculus.divide" title="Permalink to this definition">¶</a></dt>
 <dd><p>Divide first term by second term.</p>
-<p>This function divides the first term by the second term.</p>
-<dl class="field-list simple">
+<p>This function divides <code class="docutils literal notranslate"><span class="pre">first_term</span></code> by <code class="docutils literal notranslate"><span class="pre">second_term</span></code>.</p>
+<dl class="field-list">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>first_term</strong> (<em>Number</em>) – First term for the division.</p></li>
-<li><p><strong>second_term</strong> (<em>Number</em>) – <p>Second term for the division.</p>
+<dd class="field-odd"><dl>
+<dt><strong>first_term</strong><span class="classifier">Number</span></dt><dd><p>First term for the division.</p>
+</dd>
+<dt><strong>second_term</strong><span class="classifier">Number</span></dt><dd><p>Second term for the division.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Should not be zero!</p>
 </div>
-</p></li>
-</ul>
+</dd>
+</dl>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>result</strong> – Result of the division.</p>
+<dd class="field-even"><dl class="simple">
+<dt><strong>result</strong><span class="classifier">Number</span></dt><dd><p>Result of the division.</p>
 </dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>Number</p>
+</dl>
 </dd>
-<dt class="field-even">Raises</dt>
-<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3.6/library/exceptions.html#ZeroDivisionError" title="(in Python v3.6)"><strong>ZeroDivisionError</strong></a> – If second term is equal to zero.</p>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><dl class="simple">
+<dt>ZeroDivisionError</dt><dd><p>If second term is equal to zero.</p>
+</dd>
+</dl>
 </dd>
 </dl>
 <div class="admonition seealso">
@@ -221,6 +295,8 @@ user guide for the big picture.</p>
               
               <div class='prev-next-bottom'>
                 
+    <a class='left-prev' id="prev-link" href="toy_pkg.calculus.multiply.html" title="previous page">toy_pkg.calculus.multiply</a>
+    <a class='right-next' id="next-link" href="toy_pkg.calculus.lazy_add.html" title="next page">toy_pkg.calculus.lazy_add</a>
 
               </div>
               

@@ -21,7 +21,7 @@ Load functions
 
 .. code-block:: default
 
-    from toy_pkg.calculus import lazy_add, lazy_subtract
+    from toy_pkg.calculus import lazy_multiply, lazy_divide
 
 
 
@@ -36,16 +36,16 @@ Perform long computations
 .. code-block:: default
 
 
-    # Perform 1 + 1 and sleep for 2 minutes...
-    result = lazy_add(1, 1, 2 * 60)
+    # Perform 1 * 1 and sleep for 1 minute...
+    result = lazy_multiply(1, 1, 60)
     print(result)
 
-    # Perform 10 - 7 and sleep for 1 minute...
-    result = lazy_subtract(10, 7, 60)
+    # Perform 10 / 5 and sleep for 1 minute...
+    result = lazy_divide(10, 5, 60)
     print(result)
 
-    # Perform 20 + 42 and sleeps for 3 minutes...
-    print(lazy_add(20, 42, 3 * 60))
+    # Perform 10 * 42 and sleeps for 1 minutes...
+    print(lazy_multiply(10, 42, 60))
 
 
 
@@ -56,9 +56,9 @@ Perform long computations
 
  .. code-block:: none
 
-    2
-    3
-    62
+    1
+    2.0
+    420
 
 
 
@@ -66,7 +66,7 @@ Perform long computations
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 6 minutes  0.180 seconds)
+   **Total running time of the script:** ( 3 minutes  0.182 seconds)
 
 
 .. _sphx_glr_download_auto_examples_plot_example_super_slow_calculator.py:

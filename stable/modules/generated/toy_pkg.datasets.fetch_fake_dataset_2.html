@@ -44,6 +44,8 @@
     <script src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="toy_pkg.datasets.fetch_fake_dataset_3" href="toy_pkg.datasets.fetch_fake_dataset_3.html" />
+    <link rel="prev" title="toy_pkg.datasets.fetch_fake_dataset_1" href="toy_pkg.datasets.fetch_fake_dataset_1.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
   </head>
@@ -73,13 +75,25 @@
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../user_guide.html">
-  User guide: table of contents
+  User Guide
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../auto_examples/index.html">
-  toy_pkg usage examples
+  Examples
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../reference.html">
+  API
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../whats_new.html">
+  What’s new
  </a>
 </li>
 
@@ -104,7 +118,63 @@
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   <div class="bd-toc-item active">
-    
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.add.html">
+   toy_pkg.calculus.add
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.subtract.html">
+   toy_pkg.calculus.subtract
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.multiply.html">
+   toy_pkg.calculus.multiply
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.divide.html">
+   toy_pkg.calculus.divide
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_add.html">
+   toy_pkg.calculus.lazy_add
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_subtract.html">
+   toy_pkg.calculus.lazy_subtract
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_multiply.html">
+   toy_pkg.calculus.lazy_multiply
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.calculus.lazy_divide.html">
+   toy_pkg.calculus.lazy_divide
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.datasets.fetch_fake_dataset_1.html">
+   toy_pkg.datasets.fetch_fake_dataset_1
+  </a>
+ </li>
+ <li class="toctree-l2 current active">
+  <a class="current reference internal" href="#">
+   toy_pkg.datasets.fetch_fake_dataset_2
+  </a>
+ </li>
+ <li class="toctree-l2">
+  <a class="reference internal" href="toy_pkg.datasets.fetch_fake_dataset_3.html">
+   toy_pkg.datasets.fetch_fake_dataset_3
+  </a>
+ </li>
+</ul>
   </div>
 </nav>
             </div>
@@ -159,19 +229,21 @@ user guide for the big picture.</p>
 <dt class="sig sig-object py" id="toy_pkg.datasets.fetch_fake_dataset_2">
 <span class="sig-prename descclassname"><span class="pre">toy_pkg.datasets.</span></span><span class="sig-name descname"><span class="pre">fetch_fake_dataset_2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_dir</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#toy_pkg.datasets.fetch_fake_dataset_2" title="Permalink to this definition">¶</a></dt>
 <dd><p>Download dataset ‘fake_dataset_2’.</p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>data_dir</strong> (<em>string</em><em>, </em><em>optional</em>) – Path of the data directory. Used to force data storage in a specified
-location. Default: None</p></li>
-<li><p><strong>verbose</strong> (<a class="reference external" href="https://docs.python.org/3.6/library/functions.html#int" title="(in Python v3.6)"><em>int</em></a><em>, </em><em>optional</em>) – Verbosity level (0 means no message). Default=1.</p></li>
-</ul>
+<dd class="field-odd"><dl>
+<dt><strong>data_dir</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/3.6/library/stdtypes.html#str" title="(in Python v3.6)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></a>, optional</span></dt><dd><p>Path of the data directory. Used to force data storage in a specified
+location. Default: None</p>
+</dd>
+<dt><strong>verbose</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/3.6/library/functions.html#int" title="(in Python v3.6)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code></a>, optional</span></dt><dd><p>Verbosity level (0 means no message). Default=1.</p>
+</dd>
+</dl>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>data</strong> – Dictionary-like object</p>
+<dd class="field-even"><dl>
+<dt><strong>data</strong><span class="classifier"><a class="reference external" href="https://scikit-learn.org/stable/modules/generated/sklearn.utils.Bunch.html#sklearn.utils.Bunch" title="(in scikit-learn v1.0)"><code class="xref py py-func docutils literal notranslate"><span class="pre">sklearn.utils.Bunch</span></code></a></span></dt><dd><p>Dictionary-like object</p>
 </dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>sklearn.datasets.base.Bunch</p>
+</dl>
 </dd>
 </dl>
 </dd></dl>
@@ -191,6 +263,8 @@ location. Default: None</p></li>
               
               <div class='prev-next-bottom'>
                 
+    <a class='left-prev' id="prev-link" href="toy_pkg.datasets.fetch_fake_dataset_1.html" title="previous page">toy_pkg.datasets.fetch_fake_dataset_1</a>
+    <a class='right-next' id="next-link" href="toy_pkg.datasets.fetch_fake_dataset_3.html" title="next page">toy_pkg.datasets.fetch_fake_dataset_3</a>
 
               </div>
               
